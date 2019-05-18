@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Snake Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="snake.css" />
+  </head>
+  <body>
+    <h2>Have a Sssssssuper Time!</h2>
+    <canvas id="chunk-game" height="600" width="800"></canvas>
+    <div class="sidebar">
+      <p id="seeScore">SCORE: 0</p>
+      <p class="directions">Directions:<br><br>Use the arrow keys to direct your snake. Eat <span style="color: #00FFFF"><strong>blue</strong></span> fruits to earn points and grow your snake. If your snake gets too long and unweildy you can shrink it by eating a <span style="color: #A800FF"><strong>purple</strong></span> berry, but you'll lose points - and if you eat too many berries, you'll Benjamin Button your snake!</p>
+      <button id="reset" onclick="resetGame()">Play Again</button>
+    </div>
+
+    <script type="text/javascript" src="chunk.js"></script>
+    <script type="text/javascript" src="snake.js"></script>
+  </body>
+</html>
