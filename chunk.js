@@ -97,7 +97,6 @@ var CHUNK = {
     var context = canvas.getContext('2d');
     context.font = '25pt Permanent Marker';
     context.fillStyle = 'red';
-    context.align = 'center';
     context.fillText(message, 275, 100);
   }
 }
