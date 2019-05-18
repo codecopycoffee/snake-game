@@ -65,6 +65,7 @@ var ate = (snake, otherThing) => {
   return CHUNK.detectCollisionBetween([head], otherThing);
 }
 
+//Progresses the game depending on what the snake has come into contact with
 var advanceGame = () => {
   var newSnake = moveSnake(snake);
 
